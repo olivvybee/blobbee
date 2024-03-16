@@ -5,7 +5,7 @@ on:
       - '*'
 
 jobs:
-  generate-pngs:
+  create-release:
     runs-on: ubuntu-latest
 
     steps:
