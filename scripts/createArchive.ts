@@ -3,7 +3,7 @@ import fs from 'fs';
 
 import archiver from 'archiver';
 
-const createZipFromDirectory = (inPath: string, outPath: string) => {
+const createZipFromDirectory = async (inPath: string, outPath: string) => {
   const output = fs.createWriteStream(outPath);
   const archive = archiver('zip');
 
@@ -15,14 +15,18 @@ const createZipFromDirectory = (inPath: string, outPath: string) => {
 
   archive.directory(inPath, false);
 
-  archive.finalize();
+  await archive.finalize();
 };
 
-createZipFromDirectory(
-  path.resolve('.', 'png'),
-  path.resolve('.', 'blobbee.zip')
-);
-createZipFromDirectory(
-  path.resolve('.', 'svg'),
-  path.resolve('.', 'blobbee-svg.zip')
-);
+const run = async () => {
+  await createZipFromDirectory(
+    path.resolve('.', 'png'),
+    path.resolve('.', 'blobbee.zip')
+  );
+  await createZipFromDirectory(
+    path.resolve('.', 'svg'),
+    path.resolve('.', 'blobbee-svg.zip')
+  );
+};
+
+run();
