@@ -1,0 +1,41 @@
+name: Create Release
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  generate-pngs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Install node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+      - name: Install dependencies
+        run: npm install
+      - name: Generate PNGs
+        run: npm run generate-pngs
+      - name: Generate meta
+        run: npm run generate-meta
+      - name: Generate preview
+        run: npm run generate-preview
+      - name: Create archive
+        run: npm run create-archive
+      - name: Create changelog
+        id: changelog
+        uses: mikepenz/release-changelog-builder-action@v4
+        with:
+          configuration: 'changelog-config.json'
+          commitMode: true
+      - name: Create release
+        uses: softprops/action-gh-release@v2
+        with:
+          body: ${{ steps.changelog.outputs.changelog }}
+          files: |
+            preview.png
+            blobbee.zip
+            blobbee-svg.zip
