@@ -19,6 +19,8 @@ jobs:
         run: npm install
       - name: Generate PNGs
         run: npm run generate-pngs
+      - name: Create tar archive
+        run: tar -czvf blobbee.tar.gz png
       - name: Generate meta
         run: npm run generate-meta
       - name: Generate preview
@@ -40,4 +42,5 @@ jobs:
           files: |
             preview.png
             blobbee.zip
+            blobbee.tar.gz
             blobbee-svg.zip
