@@ -32,7 +32,7 @@ lets you import the entire set at once from the command line.
 If you trust random shell commands from the internet:
 
 ```
-curl -O https://github.com/olivvybee/blobbee/releases/latest/download/blobbee.tar.gz
+wget https://github.com/olivvybee/blobbee/releases/latest/download/blobbee.tar.gz
 tootctl emoji import --category blobbee ./blobbee.tar.gz
 ```
 
