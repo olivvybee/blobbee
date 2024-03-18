@@ -31,7 +31,8 @@ fs.writeFileSync(fileMapOutput, JSON.stringify(fileMap, null, 2));
 const manifest = {
   blobbee: {
     description: 'Bee emojis by @olivvybee@meow.woem.cat',
-    files: 'filemap.json',
+    files:
+      'https://github.com/olivvybee/blobbee/releases/latest/download/filemap.json',
     homepage: 'https://github.com/olivvybee/blobbee/',
     src: 'https://github.com/olivvybee/blobbee/releases/latest/download/blobbee.zip',
     src_sha256: checksum,
