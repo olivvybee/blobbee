@@ -54,3 +54,11 @@ the entire archive at once.
 
 The emojis will be categorised into `blobbee`, `neofox`, and `neocat` categories
 automatically.
+
+### Pleroma and akkoma
+
+Run the following command:
+
+```
+mix pleroma.emoji get-packs blobbee -m https://github.com/olivvybee/blobbee/releases/latest/download/manifest.json
+```

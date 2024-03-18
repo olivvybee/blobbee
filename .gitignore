@@ -3,3 +3,5 @@
 node_modules
 png
 *.zip
+manifest.json
+filemap.json
