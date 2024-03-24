@@ -15,7 +15,9 @@ const svg2img = (svg: string, options?: svg2imgOptions): Promise<any> =>
 
 const run = async () => {
   const svgDirectory = path.resolve('.', 'svg');
-  const svgs = fs.readdirSync(svgDirectory);
+  const svgs = fs
+    .readdirSync(svgDirectory)
+    .filter((filename) => filename.endsWith('.svg'));
 
   const pngDirectory = path.resolve('.', 'png');
 
