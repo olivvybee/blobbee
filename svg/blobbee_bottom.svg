@@ -23,7 +23,7 @@
             <path id="Front-wing" serif:id="Front wing" d="M230.475,-49.656C252.167,-33.659 251.1,2.617 228.095,31.302C205.09,59.987 168.802,70.288 147.111,54.291C125.419,38.295 126.486,2.019 149.491,-26.666C172.496,-55.351 208.784,-65.652 230.475,-49.656Z" style="fill:rgb(195,195,195);"/>
         </g>
         <g id="Face">
-            <path id="Mouth" d="M81.944,183.947L97.86,168.462L117.594,184.357" style="fill:none;stroke:black;stroke-width:10px;"/>
+            <path id="Mouth" d="M81.944,181.947L97.86,166.462L117.594,182.357" style="fill:none;stroke:black;stroke-width:10px;"/>
             <g id="Eyes">
                 <g id="Right-eye" serif:id="Right eye">
                     <circle id="Eye-white" serif:id="Eye white" cx="130.511" cy="138.02" r="23.779" style="fill:white;"/>
