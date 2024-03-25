@@ -49,7 +49,7 @@ jobs:
 
       - name: Create changelog
         id: changelog
-        if: ${{ !contains(github.ref_name, '-') }}
+        if: ${{ !contains(github.ref_name, 'prerelease') }}
         uses: mikepenz/release-changelog-builder-action@v4
         with:
           configuration: 'changelog-config.json'
@@ -57,10 +57,10 @@ jobs:
 
       - name: Create release
         uses: softprops/action-gh-release@v2
-        if: ${{ !contains(github.ref_name, '-') }}
+        if: ${{ !contains(github.ref_name, 'prerelease') }}
         with:
           body: ${{ steps.changelog.outputs.changelog }}
-          prerelease: ${{ contains(github.ref_name, '-') }}
+          prerelease: ${{ contains(github.ref_name, 'prerelease') }}
           files: |
             preview.png
             blobbee.zip
@@ -71,7 +71,7 @@ jobs:
 
       - name: Create prerelease
         uses: softprops/action-gh-release@v2
-        if: ${{ contains(github.ref_name, '-') }}
+        if: ${{ contains(github.ref_name, 'prerelease') }}
         with:
           body:
             '![A grid of bee emojis making various
