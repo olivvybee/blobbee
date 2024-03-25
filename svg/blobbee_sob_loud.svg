@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="100%" height="100%" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
-    <rect id="blobbee_sob" x="-0" y="0" width="256" height="256" style="fill:none;"/>
+    <rect id="blobbee_sob_loud" x="-0" y="0" width="256" height="256" style="fill:none;"/>
     <clipPath id="_clip1">
         <rect x="-0" y="0" width="256" height="256"/>
     </clipPath>
@@ -21,15 +21,21 @@
             <path id="Front-wing" serif:id="Front wing" d="M230.475,-49.656C252.167,-33.659 251.1,2.617 228.095,31.302C205.09,59.987 168.802,70.288 147.111,54.291C125.419,38.295 126.486,2.019 149.491,-26.666C172.496,-55.351 208.784,-65.652 230.475,-49.656Z" style="fill:rgb(195,195,195);"/>
         </g>
         <g id="Face">
-            <path id="Mouth" d="M78.622,189.054L94.538,173.569L114.273,189.464" style="fill:none;stroke:black;stroke-width:10px;"/>
+            <g id="Mouth">
+                <path id="Mouth-backgorund" serif:id="Mouth backgorund" d="M124.317,187.828C124.317,176.761 115.332,167.776 104.265,167.776L88.313,167.776C77.106,167.776 68.007,176.875 68.007,188.082C68.007,194.494 73.213,199.7 79.625,199.7L112.446,199.7C118.998,199.7 124.317,194.38 124.317,187.828Z" style="fill:rgb(160,25,25);"/>
+                <clipPath id="_clip2">
+                    <path id="Tongue" d="M124.317,187.828C124.317,176.761 115.332,167.776 104.265,167.776L88.313,167.776C77.106,167.776 68.007,176.875 68.007,188.082C68.007,194.494 73.213,199.7 79.625,199.7L112.446,199.7C118.998,199.7 124.317,194.38 124.317,187.828Z"/>
+                </clipPath>
+                <g clip-path="url(#_clip2)">
+                    <ellipse cx="112.325" cy="195.941" rx="19.722" ry="12.075" style="fill:rgb(245,169,184);"/>
+                </g>
+            </g>
             <g id="Tears" opacity="0.9">
-                <path id="Right-tears" serif:id="Right tears" d="M151.054,133.272L111.764,133.272L111.764,192.154C111.764,202.996 120.567,211.799 131.409,211.799C142.251,211.799 151.054,202.996 151.054,192.154L151.054,133.272Z" style="fill:rgb(112,193,255);fill-opacity:0.9;"/>
-                <path id="Left-tears" serif:id="Left tears" d="M83.166,133.272L43.876,133.272L43.876,192.154C43.876,202.996 52.678,211.799 63.521,211.799C74.363,211.799 83.166,202.996 83.166,192.154L83.166,133.272Z" style="fill:rgb(112,193,255);fill-opacity:0.9;"/>
+                <path id="Right-tears" serif:id="Right tears" d="M151.054,145.482L110.126,133.272L110.126,192.154C110.126,202.996 119.296,211.799 130.59,211.799C141.885,211.799 151.054,202.996 151.054,192.154L151.054,145.482Z" style="fill:rgb(112,193,255);fill-opacity:0.9;"/>
+                <path id="Left-tears" serif:id="Left tears" d="M84.928,133.272L43.876,145.482L43.876,192.154C43.876,202.996 53.073,211.799 64.402,211.799C75.731,211.799 84.928,202.996 84.928,192.154L84.928,133.272Z" style="fill:rgb(112,193,255);fill-opacity:0.9;"/>
             </g>
-            <g id="Eyes">
-                <path id="Right-eye" serif:id="Right eye" d="M146.294,135.813L115.736,131.889" style="fill:none;stroke:black;stroke-width:12px;"/>
-                <path id="Left-eye" serif:id="Left eye" d="M48.036,135.813L78.594,131.889" style="fill:none;stroke:black;stroke-width:12px;"/>
-            </g>
+            <path id="Right-eye" serif:id="Right eye" d="M144.195,117.533L116.671,133.455L144.358,145.482" style="fill:none;stroke:black;stroke-width:13.47px;"/>
+            <path id="Left-eye" serif:id="Left eye" d="M50.822,117.533L78.347,133.455L50.66,145.482" style="fill:none;stroke:black;stroke-width:13.47px;"/>
         </g>
     </g>
 </svg>
