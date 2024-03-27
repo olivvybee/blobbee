@@ -26,11 +26,13 @@
                 <path id="Tongue" d="M93.579,199.7C92.946,198.517 92.604,197.253 92.604,195.941C92.604,189.277 101.441,183.866 112.325,183.866C116.81,183.866 120.947,184.785 124.262,186.331C124.299,186.825 124.317,187.325 124.317,187.828C124.317,194.38 118.998,199.7 112.446,199.7L93.579,199.7Z" style="fill:rgb(216,72,72);"/>
             </g>
             <g id="Tears" opacity="0.9">
-                <path id="Right-tears" serif:id="Right tears" d="M151.054,145.482L110.126,133.272L110.126,192.154C110.126,202.996 119.296,211.799 130.59,211.799C141.885,211.799 151.054,202.996 151.054,192.154L151.054,145.482Z" style="fill:rgb(112,193,255);fill-opacity:0.9;"/>
-                <path id="Left-tears" serif:id="Left tears" d="M84.928,133.272L43.876,145.482L43.876,192.154C43.876,202.996 53.073,211.799 64.402,211.799C75.731,211.799 84.928,202.996 84.928,192.154L84.928,133.272Z" style="fill:rgb(112,193,255);fill-opacity:0.9;"/>
+                <path id="Right-tears" serif:id="Right tears" d="M145.447,147.722L107.741,136.473L107.741,190.72C107.741,200.709 116.188,208.818 126.594,208.818C136.999,208.818 145.447,200.709 145.447,190.72L145.447,147.722Z" style="fill:rgb(112,193,255);fill-opacity:0.9;"/>
+                <path id="Left-tears" serif:id="Left tears" d="M83.918,136.367L46.097,147.615L46.097,190.613C46.097,200.602 54.571,208.712 65.008,208.712C75.445,208.712 83.918,200.602 83.918,190.613L83.918,136.367Z" style="fill:rgb(112,193,255);fill-opacity:0.9;"/>
             </g>
-            <path id="Right-eye" serif:id="Right eye" d="M144.195,117.533L116.671,133.455L144.358,145.482" style="fill:none;stroke:black;stroke-width:13.47px;"/>
-            <path id="Left-eye" serif:id="Left eye" d="M50.822,117.533L78.347,133.455L50.66,145.482" style="fill:none;stroke:black;stroke-width:13.47px;"/>
+            <g id="Eyes">
+                <path id="Right-eye" serif:id="Right eye" d="M139.591,120.688L113.813,135.599L139.743,146.863" style="fill:none;stroke:black;stroke-width:12.61px;"/>
+                <path id="Left-eye" serif:id="Left eye" d="M52.144,120.688L77.922,135.599L51.992,146.863" style="fill:none;stroke:black;stroke-width:12.61px;"/>
+            </g>
         </g>
     </g>
 </svg>

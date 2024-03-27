@@ -27,8 +27,8 @@
             </g>
             <path id="Drool" d="M128,192.752C128,189.11 125.043,186.153 121.401,186.153C117.758,186.153 114.801,189.11 114.801,192.752L114.801,211.085C114.801,214.728 117.758,217.685 121.401,217.685C125.043,217.685 128,214.728 128,211.085L128,192.752Z" style="fill:rgb(112,193,255);fill-opacity:0.8;"/>
             <g id="Eyes">
-                <path id="Right-eye" serif:id="Right eye" d="M146.294,135.813L115.736,131.889" style="fill:none;stroke:black;stroke-width:12px;"/>
-                <path id="Left-eye" serif:id="Left eye" d="M48.036,135.813L78.594,131.889" style="fill:none;stroke:black;stroke-width:12px;"/>
+                <path id="Right-eye" serif:id="Right eye" d="M141.384,135.617L113.88,132.085" style="fill:none;stroke:black;stroke-width:12px;"/>
+                <path id="Left-eye" serif:id="Left eye" d="M52.946,135.617L80.45,132.085" style="fill:none;stroke:black;stroke-width:12px;"/>
             </g>
         </g>
         <path id="Bottom-Z" serif:id="Bottom Z" d="M22.335,68.625L44.47,68.625L21.207,98.813L45.458,98.886" style="fill:none;stroke:black;stroke-width:15px;"/>

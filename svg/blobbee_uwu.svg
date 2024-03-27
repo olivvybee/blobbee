@@ -22,8 +22,10 @@
         </g>
         <g id="Face">
             <path id="Mouth" d="M65.917,168.037L76.693,186.154L91.213,168.069L109.2,186.104L130.627,168.09" style="fill:none;stroke:black;stroke-width:10px;"/>
-            <path id="Right-eye" serif:id="Right eye" d="M112.69,122.388C112.238,132.117 118.422,142.075 129.045,142.281C139.023,142.474 148.546,134.673 148.587,121.558" style="fill:none;stroke:black;stroke-width:12px;"/>
-            <path id="Left-eye" serif:id="Left eye" d="M83.854,122.355C84.306,132.085 78.122,142.042 67.498,142.248C57.521,142.442 47.997,134.641 47.957,121.526" style="fill:none;stroke:black;stroke-width:12px;"/>
+            <g id="Eyes">
+                <path id="Right-eye" serif:id="Right eye" d="M108.767,124.205C108.355,133.046 113.975,142.094 123.628,142.281C132.694,142.457 141.348,135.368 141.384,123.451" style="fill:none;stroke:black;stroke-width:12px;"/>
+                <path id="Left-eye" serif:id="Left eye" d="M82.968,124.175C83.379,133.016 77.76,142.065 68.106,142.252C59.041,142.427 50.387,135.339 50.35,123.422" style="fill:none;stroke:black;stroke-width:12px;"/>
+            </g>
         </g>
     </g>
 </svg>

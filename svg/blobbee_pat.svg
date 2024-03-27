@@ -23,8 +23,8 @@
         <g id="Face">
             <path id="Mouth" d="M65.917,168.037L76.693,186.154L91.213,168.069L109.2,186.104L130.627,168.09" style="fill:none;stroke:black;stroke-width:10px;"/>
             <g id="Eyes">
-                <path id="Right-eye" serif:id="Right eye" d="M144.195,117.533L116.671,133.455L144.358,145.482" style="fill:none;stroke:black;stroke-width:13.47px;"/>
-                <path id="Left-eye" serif:id="Left eye" d="M50.822,117.533L78.347,133.455L50.66,145.482" style="fill:none;stroke:black;stroke-width:13.47px;"/>
+                <path id="Right-eye" serif:id="Right eye" d="M139.591,120.688L113.813,135.599L139.743,146.863" style="fill:none;stroke:black;stroke-width:12.61px;"/>
+                <path id="Left-eye" serif:id="Left eye" d="M52.144,120.688L77.922,135.599L51.992,146.863" style="fill:none;stroke:black;stroke-width:12.61px;"/>
             </g>
         </g>
         <g id="Hand">

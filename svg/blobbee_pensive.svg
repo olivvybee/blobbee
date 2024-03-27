@@ -23,8 +23,8 @@
         <g id="Face">
             <path id="Mouth" d="M78.418,183.531L93.998,168.373L113.316,183.932" style="fill:none;stroke:black;stroke-width:10px;"/>
             <g id="Eyes">
-                <path id="Right-eye" serif:id="Right eye" d="M110.063,129.476C109.611,139.205 115.795,149.163 126.419,149.369C136.396,149.562 145.92,141.762 145.96,128.646" style="fill:none;stroke:black;stroke-width:12px;"/>
-                <path id="Left-eye" serif:id="Left eye" d="M81.671,129.443C82.123,139.173 75.94,149.131 65.316,149.337C55.339,149.53 45.815,141.729 45.774,128.614" style="fill:none;stroke:black;stroke-width:12px;"/>
+                <path id="Right-eye" serif:id="Right eye" d="M108.767,128.783C108.355,137.624 113.975,146.672 123.628,146.859C132.694,147.035 141.348,139.947 141.384,128.029" style="fill:none;stroke:black;stroke-width:12px;"/>
+                <path id="Left-eye" serif:id="Left eye" d="M82.968,128.754C83.379,137.595 77.76,146.643 68.106,146.83C59.041,147.006 50.387,139.917 50.35,128" style="fill:none;stroke:black;stroke-width:12px;"/>
             </g>
             <g id="Eyebrows">
                 <path id="Right-eyebrow" serif:id="Right eyebrow" d="M115.918,98.886C115.918,98.886 120.073,111.542 140.082,105.875" style="fill:none;stroke:black;stroke-width:10px;"/>

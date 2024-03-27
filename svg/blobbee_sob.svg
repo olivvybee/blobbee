@@ -23,12 +23,12 @@
         <g id="Face">
             <path id="Mouth" d="M78.622,189.054L94.538,173.569L114.273,189.464" style="fill:none;stroke:black;stroke-width:10px;"/>
             <g id="Tears" opacity="0.9">
-                <path id="Right-tears" serif:id="Right tears" d="M151.054,133.272L111.764,133.272L111.764,192.154C111.764,202.996 120.567,211.799 131.409,211.799C142.251,211.799 151.054,202.996 151.054,192.154L151.054,133.272Z" style="fill:rgb(112,193,255);fill-opacity:0.9;"/>
-                <path id="Left-tears" serif:id="Left tears" d="M83.166,133.272L43.876,133.272L43.876,192.154C43.876,202.996 52.678,211.799 63.521,211.799C74.363,211.799 83.166,202.996 83.166,192.154L83.166,133.272Z" style="fill:rgb(112,193,255);fill-opacity:0.9;"/>
+                <path id="Right-tears" serif:id="Right tears" d="M146.154,134.783L109.846,134.783L109.846,189.195C109.846,199.214 117.981,207.349 128,207.349C138.019,207.349 146.154,199.214 146.154,189.195L146.154,134.783Z" style="fill:rgb(112,193,255);fill-opacity:0.9;"/>
+                <path id="Left-tears" serif:id="Left tears" d="M84.996,134.783L48.689,134.783L48.689,189.195C48.689,199.214 56.823,207.349 66.843,207.349C76.862,207.349 84.996,199.214 84.996,189.195L84.996,134.783Z" style="fill:rgb(112,193,255);fill-opacity:0.9;"/>
             </g>
             <g id="Eyes">
-                <path id="Right-eye" serif:id="Right eye" d="M146.294,135.813L115.736,131.889" style="fill:none;stroke:black;stroke-width:12px;"/>
-                <path id="Left-eye" serif:id="Left eye" d="M48.036,135.813L78.594,131.889" style="fill:none;stroke:black;stroke-width:12px;"/>
+                <path id="Right-eye" serif:id="Right eye" d="M141.384,135.617L113.88,132.085" style="fill:none;stroke:black;stroke-width:12px;"/>
+                <path id="Left-eye" serif:id="Left eye" d="M52.946,135.617L80.45,132.085" style="fill:none;stroke:black;stroke-width:12px;"/>
             </g>
         </g>
     </g>
