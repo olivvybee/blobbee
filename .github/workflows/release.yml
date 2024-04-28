@@ -23,6 +23,9 @@ jobs:
       - name: Generate PNGs
         run: npm run generate-pngs
 
+      - name: Generate hi-res PNGs
+        run: npm run generate-pngs -- --size 2048 --outdir ./png-2048
+
       - name: Create tar archive
         run: tar -czvf blobbee.tar.gz -C png .
 
@@ -34,6 +37,9 @@ jobs:
 
       - name: Create PNG archive
         run: zip -r blobbee.zip png
+
+      - name: Create hi-res PNG archive
+        run: zip -r blobbee-hires.zip png-2048
 
       - name: Generate checksum
         id: checksum
@@ -64,6 +70,7 @@ jobs:
           files: |
             preview.png
             blobbee.zip
+            blobbee-hires.zip
             blobbee.tar.gz
             blobbee-svg.zip
             manifest.json
@@ -80,6 +87,7 @@ jobs:
           files: |
             preview.png
             blobbee.zip
+            blobbee-hires.zip
             blobbee.tar.gz
             blobbee-svg.zip
             manifest.json
